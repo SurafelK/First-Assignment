@@ -96,11 +96,12 @@ def pythonHistory():
     print("It remains one of the most popular programming languages due to its versatility and ease of use.")
     
     print('Do you want to take Python quiz y/n ')
-    q = input()
-    if q == 'y' or q == 'Y' :
+
+    quiz = input()
+    if quiz == 'y' or quiz == 'Y' :
         print("yes")
         pythonQuiz()
-    if q == 'n' :
+    if quiz == 'n' :
         exitorConti()
 
 
@@ -342,7 +343,7 @@ def pythonQuiz() :
     
     # Question 1: Python History
     print("1. Who invented Python?")
-    print("a) Bekele b) Yoya c) Doda d) Guido van Rossum")
+    print("a) Michael Sko b) Benkamin c) Chris Toker d) Guido van Rossum")
     q1Ans = input()
     if q1Ans.lower() == 'd':
         correct += 1
