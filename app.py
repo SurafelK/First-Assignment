@@ -7,8 +7,38 @@ def firstProgram() :
         firstProgram()
     print(' Hey {name}  '.format( name = name ))
    
-    print('wellcome to programming language history')
-    programMenu()
+    print("\n Do you want to learn or take quiz  \n learn select 'l' take quiz select 'q' \n ")
+
+    choice = input().lower()
+
+    if( choice == 'l' ) :
+        programMenu()
+    elif (choice == 'q' ) :
+        quizMenu()
+    else :
+        print ("Invalid input \n Please read and select properly")
+        firstProgram()
+
+
+def quizMenu () :
+    print('select languages Number')
+    print(' **** Select the number **** \n 1)Python \n 2)Js \n 3)C++ \n 4)C# \n 5) GO    ')
+    n = input()
+    
+    if( n == '1' ) :
+        pythonQuiz()
+    elif (n == '2' ):
+        jsQuiz()
+    elif ( n =='3' ) :
+        cppQuiz()
+    elif ( n == '4' ) :
+        csharpQuiz()
+    elif ( n == '5' ) :
+        goQuiz()
+    else :
+        print("Please read the menu")
+        programMenu()
+
 
 def programMenu( ):
     print('select languages Number')
