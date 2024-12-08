@@ -107,107 +107,6 @@ def pythonHistory():
         print("Invalid input, please enter 'y' or 'n'.")
         pythonHistory()
 
-def pythonQuiz():
-
-    correct = 0
-    incorrect = 0
-    # Question 1: Python History
-    print("1. Who invented Python?")
-    print("a) Michael Sko b) Benkamin c) Chris Toker d) Guido van Rossum")
-    q1Ans = input()
-    if q1Ans.lower() == 'd':
-        correct += 1
-    else:
-        incorrect += 1
-    
-    # Question 2: Python Arithmetic
-    print("\n2. What is the output of the following code?")
-    print("print(2 ** 3)")
-    print("a) 6 b) 8 c) 9 d) Error")
-    q2Ans = input()
-    if q2Ans.lower() == 'b':
-        correct += 1
-    else:
-        incorrect += 1
-
-    # Question 3: Python Data Types
-    print("\n3. Which of the following is NOT a valid data type in Python?")
-    print("a) List b) Tuple c) Set d) Integer string")
-    q3Ans = input()
-    if q3Ans.lower() == 'd':
-        correct += 1
-    else:
-        incorrect += 1
-    
-    # Question 4: Python Functions
-    print("\n4. Which keyword is used to define a function in Python?")
-    print("a) func b) define c) def d) function")
-    q4Ans = input()
-    if q4Ans.lower() == 'c':
-        correct += 1
-    else:
-        incorrect += 1
-
-    # Question 5: Python Comparison
-    print("\n5. Which operator is used to compare two values in Python?")
-    print("a) = b) == c) != d) < >")
-    q5Ans = input()
-    if q5Ans.lower() == 'b':
-        correct += 1
-    else:
-        incorrect += 1
-
-    # Question 6: Lambda Functions
-    print("\n6. How do you define a lambda function in Python?")
-    print("a) lambda x: x+1 b) def lambda(x): x+1 c) function x(x+1) d) None of the above")
-    q6Ans = input()
-    if q6Ans.lower() == 'a':
-        correct += 1
-    else:
-        incorrect += 1
-
-    # Question 7: Function Return Value
-    print("\n7. What is the default return value of a Python function that doesn't explicitly return anything?")
-    print("a) None b) 0 c) '' d) Error")
-    q7Ans = input()
-    if q7Ans.lower() == 'a':
-        correct += 1
-    else:
-        incorrect += 1
-
-    # Question 8: Python Data Structures (Lists)
-    print("\n8. Which of the following is mutable in Python?")
-    print("a) String b) Tuple c) List d) Set")
-    q8Ans = input()
-    if q8Ans.lower() == 'c':
-        correct += 1
-    else:
-        incorrect += 1
-
-    # Question 9: Python Dictionary
-    print("\n9. What is the output of the following code?")
-    print("my_dict = {'name': 'John', 'age': 25}\nprint(my_dict.get('name'))")
-    print("a) John b) 'name' c) Error d) None")
-    q9Ans = input()
-    if q9Ans.lower() == 'a':
-        correct += 1
-    else:
-        incorrect += 1
-
-    # Question 10: Python Slicing
-    print("\n10. What is the output of the following code?")
-    print("my_list = [1, 2, 3, 4]\nprint(my_list[1:3])")
-    print("a) [1, 2] b) [2, 3] c) [3, 4] d) [2, 3, 4]")
-    q10Ans = input()
-    if q10Ans.lower() == 'b':
-        correct += 1
-    else:
-        incorrect += 1
-
-    print(f"\nTotal Correct: {correct}")
-    print(f"Total Incorrect: {incorrect}")
-    print(f"Your Score: {correct} out of 10")
-
 
 def jsHistory():
     print("\nJavaScript History\n")
@@ -439,6 +338,106 @@ def goHistory():
         goQuiz()
     if q == 'n' :
         exitorConti()
+
+def pythonQuiz():
+    correct = 0
+    incorrect = 0
+    # Question 1: Python History
+    print("1. Who invented Python?")
+    print("a) Michael Sko b) Benkamin c) Chris Toker d) Guido van Rossum")
+    q1Ans = input()
+    if q1Ans.lower() == 'd':
+        correct += 1
+    else:
+        incorrect += 1
+    
+    # Question 2: Python Arithmetic
+    print("\n2. What is the output of the following code?")
+    print("print(2 ** 3)")
+    print("a) 6 b) 8 c) 9 d) Error")
+    q2Ans = input()
+    if q2Ans.lower() == 'b':
+        correct += 1
+    else:
+        incorrect += 1
+
+    # Question 3: Python Data Types
+    print("\n3. Which of the following is NOT a valid data type in Python?")
+    print("a) List b) Tuple c) Set d) Integer string")
+    q3Ans = input()
+    if q3Ans.lower() == 'd':
+        correct += 1
+    else:
+        incorrect += 1
+    
+    # Question 4: Python Functions
+    print("\n4. Which keyword is used to define a function in Python?")
+    print("a) func b) define c) def d) function")
+    q4Ans = input()
+    if q4Ans.lower() == 'c':
+        correct += 1
+    else:
+        incorrect += 1
+
+    # Question 5: Python Comparison
+    print("\n5. Which operator is used to compare two values in Python?")
+    print("a) = b) == c) != d) < >")
+    q5Ans = input()
+    if q5Ans.lower() == 'b':
+        correct += 1
+    else:
+        incorrect += 1
+
+    # Question 6: Lambda Functions
+    print("\n6. How do you define a lambda function in Python?")
+    print("a) lambda x: x+1 b) def lambda(x): x+1 c) function x(x+1) d) None of the above")
+    q6Ans = input()
+    if q6Ans.lower() == 'a':
+        correct += 1
+    else:
+        incorrect += 1
+
+    # Question 7: Function Return Value
+    print("\n7. What is the default return value of a Python function that doesn't explicitly return anything?")
+    print("a) None b) 0 c) '' d) Error")
+    q7Ans = input()
+    if q7Ans.lower() == 'a':
+        correct += 1
+    else:
+        incorrect += 1
+
+    # Question 8: Python Data Structures (Lists)
+    print("\n8. Which of the following is mutable in Python?")
+    print("a) String b) Tuple c) List d) Set")
+    q8Ans = input()
+    if q8Ans.lower() == 'c':
+        correct += 1
+    else:
+        incorrect += 1
+
+    # Question 9: Python Dictionary
+    print("\n9. What is the output of the following code?")
+    print("my_dict = {'name': 'John', 'age': 25}\nprint(my_dict.get('name'))")
+    print("a) John b) 'name' c) Error d) None")
+    q9Ans = input()
+    if q9Ans.lower() == 'a':
+        correct += 1
+    else:
+        incorrect += 1
+
+    # Question 10: Python Slicing
+    print("\n10. What is the output of the following code?")
+    print("my_list = [1, 2, 3, 4]\nprint(my_list[1:3])")
+    print("a) [1, 2] b) [2, 3] c) [3, 4] d) [2, 3, 4]")
+    q10Ans = input()
+    if q10Ans.lower() == 'b':
+        correct += 1
+    else:
+        incorrect += 1
+
+    print(f"\nTotal Correct: {correct}")
+    print(f"Total Incorrect: {incorrect}")
+    print(f"Your Score: {correct} out of 10")
 
 
 
