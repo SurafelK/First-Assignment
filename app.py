@@ -1,5 +1,5 @@
 
-#Use sudo docker run -it run first-project
+#Use sudo docker run -it run final-first-project
 
 #-it tag is -i keeps STDIN open, even if not attached.
 #-t allocates a pseudo-TTY, which is necessary for interactive input.
