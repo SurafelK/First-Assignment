@@ -12,7 +12,7 @@ Direct Execution
     Clone the repository:
 
 git clone https://github.com/SurafelK/First-Assignment.git
-cd python-course-quiz-app
+cd First-Assignment
 
 Install dependencies:
 
