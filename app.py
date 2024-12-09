@@ -11,8 +11,9 @@ def firstProgram() :
     if( name == '' ) :
         firstProgram()
     print(' Hey {name}  '.format( name = name ))
-   
-    print("\n Do you want to learn or take quiz  \n learn select 'l' take quiz select 'q' \n ")
+
+    print("\nWould you like to learn or take a quiz? \nTo learn, type 'L'. \nTo take a quiz, type 'Q'.\n")
+
 
     choice = input().lower()
 
