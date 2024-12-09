@@ -196,11 +196,20 @@ def jsHistory():
     print("JavaScript continues to evolve with features like ES6 modules, async/await, and optional chaining.")
     print("Its versatility ensures that it remains one of the most widely used programming languages for years to come.")
 
-    q = input().lower()
-    if q == 'y' :
-        jsQuiz()
-    if q == 'n' :
+    
+        
+    print('Do you want to take JS quiz? (y/n)')
+
+    quiz = input().lower()
+    if quiz == 'y':
+       jsQuiz()
+
+    elif quiz == 'n':
         exitorConti()
+    else:
+        print("Invalid input, please enter 'y' or 'n'.")
+        jsHistory()
+
 
 
 def cppHistory():
@@ -252,11 +261,19 @@ def cppHistory():
     print("\nFun Fact:\n")
     print("C++ influenced the creation of many modern programming languages, including Java, C#, and Rust.")
 
-    q = input().lower()
-    if q == 'y' :
-        cppQuiz()
-    if q == 'n' :
+      
+    print('Do you want to take C++ quiz? (y/n)')
+
+    quiz = input().lower()
+    if quiz == 'y':
+       cppQuiz()
+
+    elif quiz == 'n':
         exitorConti()
+    else:
+        print("Invalid input, please enter 'y' or 'n'.")
+        cppHistory()
+
 
 def hello () :
     print("Hello")
@@ -313,11 +330,19 @@ def csharpHistory():
     print("\nFun Fact:\n")
     print("C#'s name is derived from the musical notation where '#' means 'sharp,' symbolizing an evolution or step up from the C language.")
 
-    q = input()
-    if q == 'y' :
-        csharpQuiz()
-    if q == 'n' :
+      
+    print('Do you want to take C# quiz? (y/n)')
+
+    quiz = input().lower()
+    if quiz == 'y':
+       csharpQuiz()
+
+    elif quiz == 'n':
         exitorConti()
+    else:
+        print("Invalid input, please enter 'y' or 'n'.")
+        csharpHistory()
+
 
 
 def goHistory():
@@ -369,12 +394,19 @@ def goHistory():
     print("\nFun Fact:\n")
     print("The Go mascot, a gopher, was created by Renée French and is widely recognized in the developer community.")
 
-    print('\n Do you want to take quiz?')
-    q = input()
-    if q == 'y' :
-        goQuiz()
-    if q == 'n' :
+    
+    print('Do you want to take Python quiz? (y/n)')
+
+    quiz = input().lower()
+    if quiz == 'y':
+       goQuiz()
+
+    elif quiz == 'n':
         exitorConti()
+    else:
+        print("Invalid input, please enter 'y' or 'n'.")
+        goHistory()
+
 
 
 
