@@ -33,10 +33,3 @@ Run the application:
     docker run -it python-course-quiz-app
 
     Note: Use the -it option with docker run to enable seamless interaction with input fields in the terminal.
-
-🎮 Usage
-
-    Start the App: Launch the app and follow the prompts to begin your learning journey.
-    Learn: Dive into the provided content, covering programming fundamentals and Python-specific topics.
-    Quiz: Test your understanding with interactive quizzes.
-    Improve: Review your results to identify areas for improvement.
